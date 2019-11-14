@@ -1,0 +1,30 @@
+.footer {
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    font-family: $font-title;  
+
+    & p {
+        padding: 20px 0;
+
+        @include mq-mobile {
+            padding: 0;
+        }
+        
+        & a {
+            text-decoration: none;
+            color: #fff;
+            transition: all 0.2s ease-in;
+
+            @include mq-mobile {
+                text-decoration: underline;
+            }
+            
+
+            &:hover {
+                color: #FF69BA;
+            }
+        }
+    }
+}
