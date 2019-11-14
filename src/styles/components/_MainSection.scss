@@ -1,45 +1,56 @@
+.logo {
+    width: 200px;
+    margin: 40px 0;
+    @include media-query-desk {
+        width: 300px;
+    }
+}
+
 .main-section {
-    height: 400px;
+    grid-column: 1;
+    grid-row: 1;
     width: 80%;
     margin: 0 auto;
-    line-height: 1.6rem;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+    margin-top: 20px;
 
-    & h2 {
-        font-family: $font-title;
-        line-height: 2rem;
-
-        @include mq-mobile {
-            font-size: 1rem;
-            line-height: 1.4rem;
-        }
-
+    @include media-query-desk {
+        width: 100%;
+        margin-left: 70px;
     }
 
-    & p {
-        font-weight: $font-weight-light;
-        font-family: $font-text;
-    }
 }
 
 .text-intro {
-    padding: 70px 0 30px 0;
-    width: 50%;
-    
+    & h2 {
+        font-family: $font-title;
+        font-size: 1rem;
+        line-height: 1.4rem;
 
-    @include mq-mobile {
-        width: 100%;
-        padding: 20px 0 10px 0;
-
+        @include media-query-desk {
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
     }
 
-    
+    & p {
+        font-family: $font-text;
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+
+        @include media-query-desk {
+            font-size: 1rem;
+            line-height: 1.6rem;
+        }
+        
+    }
 }
 
-.logo {
-    width: 200px;
-    margin-top: 20px;
-    
+.intro {
+    & p {
+        margin-top: 10px;
+    }
+}
+
+.call-to-action {
+    margin-top: 40px;
 }

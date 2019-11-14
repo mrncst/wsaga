@@ -1,8 +1,6 @@
 import React from 'react';
 import MailChimp from 'react-mailchimp-form';
 
-const url = "//https://gmail.us20.list-manage.com/subscribe/post?u=8df4e9d7ef914ee5d2b3eae3c&amp;id=97553bb9a6";
-
 const MailChimpForm = () => {
 
     const url = "https://gmail.us20.list-manage.com/subscribe/post?u=8df4e9d7ef914ee5d2b3eae3c&amp;id=97553bb9a6";

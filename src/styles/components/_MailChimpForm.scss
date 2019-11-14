@@ -1,37 +1,38 @@
 .mailchimp-form {
+    margin-top: 20px;
+    
     & input {
-        padding: 15px;
+        padding: 10px;
         border: none;
         border-radius: 5px 0 0 5px;
         font-family: $font-title;
         font-size: 0.8rem;
-        width: 200px;
+        width: 150px;
 
-        @include mq-mobile {
-            width: 150px;
-            font-size: 0.7rem;
+        @include media-query-desk {
+            width: 250px;
+            padding: 20px;
+            }
         }
 
-    }
-
-    & button {
-        background: #FF69BA;
-        font-family: $font-title;
-        border: none;
-        font-size: 0.8rem;
-        color: #fff;
-        padding: 15px;
-        border-radius: 0 5px 5px 0;
-        transition: background 0.2s ease-in;
-
-        @include mq-mobile {
-            font-size: 0.7rem;
-        }
-
-        &:hover {
-            background: darken(#FF69BA, 10%);
+        & button {
+            background: #FF69BA;
+            font-family: $font-title;
+            border: none;
+            font-size: 0.8rem;
             color: #fff;
-        }
-    }
+            padding: 10px;
+            border-radius: 0 5px 5px 0;
+            transition: background 0.2s ease-in;
 
+            @include media-query-desk {
+                width: 100px;
+                padding: 20px;
+                }
+    
+            &:hover {
+                background: darken(#FF69BA, 10%);
+                color: #fff;
+                }
+    }
 }

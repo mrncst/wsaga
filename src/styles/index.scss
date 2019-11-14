@@ -1,10 +1,7 @@
 @import './base/variables';
-@import './mixins/mixins';
 @import './base/base';
+@import './base/mixins';
+@import './components/MailChimpForm';
 @import './base/grid';
-@import './components/Header';
 @import './components/Footer';
-@import './components/Navbar';
 @import './components/MainSection';
-@import './components/DadosPage.scss';
-@import './components/MailChimpForm.scss';
