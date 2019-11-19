@@ -8,7 +8,6 @@
         font-family: $font-title;
         font-size: 0.8rem;
         width: 150px;
-        height: 30px;
 
         @include media-query-desk {
             width: 250px;
@@ -25,7 +24,6 @@
             padding: 10px;
             border-radius: 0 5px 5px 0;
             transition: background 0.2s ease-in;
-            height: 51.5px;
 
             @include media-query-desk {
                 width: 100px;
