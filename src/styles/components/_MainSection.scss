@@ -23,11 +23,11 @@
 .text-intro {
     & h2 {
         font-family: $font-title;
-        font-size: 1rem;
+        font-size: 1.2rem;
         line-height: 1.4rem;
 
         @include media-query-desk {
-            font-size: 1.5rem;
+            font-size: 1.7rem;
             line-height: 2rem;
         }
     }
@@ -38,8 +38,8 @@
         line-height: 1.4rem;
 
         @include media-query-desk {
-            font-size: 1rem;
-            line-height: 1.6rem;
+            font-size: 1.1rem;
+            line-height: 1.8rem;
         }
         
     }

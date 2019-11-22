@@ -8,6 +8,8 @@
     "normalize.css": "^8.0.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-favicon": "0.0.17",
+    "react-gtm-module": "^2.0.8",
     "react-mailchimp-form": "^1.0.2",
     "react-mailchimp-subscribe": "^2.1.0",
     "react-router-dom": "^5.1.2",

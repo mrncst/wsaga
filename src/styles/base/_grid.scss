@@ -1,8 +1,8 @@
 .container {
-    height: 600px;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 600px auto;
+    grid-template-rows: 1fr auto;
     background: linear-gradient(180deg, #FBC385 10%, #FF86C7 100%);
 
     @include media-query-desk {
